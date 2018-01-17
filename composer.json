@@ -28,7 +28,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Netpeople\\ViewComposgiter\\": "src/"
+      "Netpeople\\ViewComposer\\": "src/"
     }
   },
   "license": "MIT"
