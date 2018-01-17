@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "netpeoplehu/view-composer",
   "description": "View composer package for Laravel >= 5.4",
   "keywords": [
