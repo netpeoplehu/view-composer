@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "netpeoplehu/view-composer",
+  "description": "View composer package for Laravel >= 5.4",
+  "keywords": [
+    "laravel",
+    "views",
+    "view",
+    "view-composer",
+    "composer"
+  ],
+  "authors": [
+    {
+      "name": "Egon Richárd Tőrös",
+      "email": "egon@netpeople.hu",
+      "homepage": "http://netpeople.hu",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/netpeoplehu/view-composer",
+    "issues": "https://github.com/netpeoplehu/view-composer/issues"
+  },
+  "require": {
+    "illuminate/console": ">= 5.4",
+    "illuminate/support": ">= 5.4",
+    "illuminate/filesystem": ">= 5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Netpeople\\ViewComposgiter\\": "src/"
+    }
+  },
+  "license": "MIT"
+}
