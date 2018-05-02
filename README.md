@@ -42,7 +42,7 @@ Edit ExampleComposer (`{appNameSpace}/Http/ViewComposers/ExampleComposer.php`)
      */
     public function compose(View $view)
     {
-        $view->with('example', 'It\'s work');
+        $view->with('example', 'It works');
     }
 ```
 
