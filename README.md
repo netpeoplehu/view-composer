@@ -15,7 +15,7 @@ Netpeople\ViewComposer\Providers\ViewComposerServiceProvider::class,
 ```
 3. Publish package config
 ```bash
-php artisan vendor:publush --tag=config
+php artisan vendor:publish --tag=config
 ````
 
 ## Usage
