@@ -33,7 +33,7 @@ class ViewComposerServiceProvider extends BaseProvider
      */
     public function register()
     {
-        $composers = config('view-composers');
+        $composers = config('view-composers', []);
 
         foreach ($composers as $composer => $views) {
             $this->app->make('view')->composer($views, $composer);

@@ -1,7 +1,8 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "name": "netpeoplehu/view-composer",
   "description": "View composer package for Laravel >= 5.4",
+  "homepage": "https://github.com/netpeoplehu/view-composer",
   "keywords": [
     "laravel",
     "views",
@@ -18,7 +19,7 @@
     }
   ],
   "support": {
-    "source": "https://github.com/netpeoplehu/view-composer",
+    "source": "https://github.com/netpeoplehu/view-composer/releases",
     "issues": "https://github.com/netpeoplehu/view-composer/issues"
   },
   "require": {
@@ -29,6 +30,13 @@
   "autoload": {
     "psr-4": {
       "Netpeople\\ViewComposer\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Netpeople\\ViewComposer\\Providers\\ViewComposerServiceProvider"
+      ]
     }
   },
   "license": "MIT"

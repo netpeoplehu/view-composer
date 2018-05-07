@@ -1,10 +1,18 @@
 # View composers for Laravel
 ###
 
-## Requirement
+* [Requirement](#requirement)
+* [Installation](#installation)
+    * [Laravel 5.4](#5.4)
+    * [Laravel 5.5+](#5.5+)
+* [Usage](#usage)
+
+# Requirement
 ❗️ Laravel >= 5.4
 
-## Installation
+# Installation
+
+## 5.4
 1. Download with composer 
 ```bash
 composer require netpeoplehu/view-composer
@@ -15,10 +23,20 @@ Netpeople\ViewComposer\Providers\ViewComposerServiceProvider::class,
 ```
 3. Publish package config
 ```bash
-php artisan vendor:publish --tag=config
+php artisan vendor:publish --provider=Netpeople\\ViewComposer\\Providers\\ViewComposerServiceProvider
 ````
 
-## Usage
+## 5.5+
+1. Download with composer 
+```bash
+composer require netpeoplehu/view-composer
+```
+3. Publish package config
+```bash
+php artisan vendor:publish --provider=Netpeople\\ViewComposer\\Providers\\ViewComposerServiceProvider
+````
+
+# Usage
 Generate your first composer
 ```bash
 php artisan make:composer ExampleComposer
@@ -46,5 +64,5 @@ Edit ExampleComposer (`{appNameSpace}/Http/ViewComposers/ExampleComposer.php`)
     }
 ```
 
-## License
+# License
 ### [MIT](https://opensource.org/licenses/MIT)
